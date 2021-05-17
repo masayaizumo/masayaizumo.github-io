@@ -249,6 +249,7 @@ transform: translate(-17px,10px) rotate(45deg);
 }
 .portfolio-img img{
   width: 100%;
+  transition: .3s;
 }
 .portfolio-img img:hover{
   transition: .3s;
