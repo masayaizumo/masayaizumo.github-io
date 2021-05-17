@@ -251,9 +251,11 @@ transform: translate(-17px,10px) rotate(45deg);
   width: 100%;
 }
 .portfolio-img img:hover{
-  opacity: .7;
   transition: .3s;
   cursor: pointer;
+  box-shadow: 0 15px 30px -5px rgba(0,0,0,.15), 0 0 5px rgba(0,0,0,.1);
+  transform: translateY(-10px);
+
 }
 .portfolio-text a{
   font-size: 1rem;
