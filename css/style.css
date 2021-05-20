@@ -6,6 +6,7 @@
 
 *{
   font-family: 'Noto Sans JP', sans-serif,'Noto Serif', serif;
+  box-sizing: border-box;
 }
 
 .section-wrapper {
@@ -290,12 +291,17 @@ transform: translate(-17px,10px) rotate(45deg);
 }
 .skills-list{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   
 }
 .skills-list li{
   list-style: none;
   width: 30%;
+  margin-bottom: 30px;
+}
+.fab{
+  width: 100%;
 }
 .skills-icon{
   font-size: 1.2rem;
@@ -524,11 +530,16 @@ body.noscroll{
 /*--------------------------------*/
 
 .skills-list li{
-  width: 20%;
+  width: 30%;
   margin:0 auto 15px;
   padding: 20px;
 }
-
+.skills-list li i.fa-5x{
+font-size: 10vw;
+}
+.skills-icon{
+  font-size: .8rem;
+}
 
 
 /*--------------------------------*/
