@@ -74,9 +74,6 @@ a:hover{
   transition: .3s;
   opacity: .7;
 }
-.header-menu{
-  margin-right: 80px;
-}
 
 .header-list {
   display: flex;
@@ -530,12 +527,12 @@ body.noscroll{
 /*--------------------------------*/
 
 .skills-list li{
-  width: 30%;
+  width: 35%;
   margin:0 auto 15px;
   padding: 20px;
 }
 .skills-list li i.fa-5x{
-font-size: 10vw;
+font-size: 11vw;
 }
 .skills-icon{
   font-size: .8rem;
