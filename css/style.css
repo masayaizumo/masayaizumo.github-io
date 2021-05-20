@@ -41,7 +41,7 @@ a:hover{
 /*--------------------------------*/
 
 .header-wrapper {
-  padding: 30px 70px 30px 40px;
+  padding: 30px 40px 30px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -52,7 +52,7 @@ a:hover{
   transition: .3s;
 }
 .header-wrapper.fixed{
-  padding: 30px 70px 30px 40px;
+  padding: 30px 40px 30px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -124,7 +124,7 @@ body.noscroll{
   height: 40px;
   position: relative;
   z-index: 3;
-  margin-right: 40px;
+  
   
 }
 .hum-wrapper:hover{
