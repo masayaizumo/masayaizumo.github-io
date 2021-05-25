@@ -259,6 +259,7 @@ transform: translate(-17px,10px) rotate(45deg);
 }
 .portfolio-text a{
   font-size: 1rem;
+  displa:block;
 }
 
 .portfolio-link{
