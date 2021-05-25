@@ -236,9 +236,10 @@ transform: translate(-17px,10px) rotate(45deg);
   display: flex;
   justify-content: space-around;
   align-items: center;
+   flex-wrap: wrap;
 }
 .portfolio{
-  width: 30%
+  width: 40%
 }
 .portfolio-img{
   width: 100%;
@@ -258,6 +259,10 @@ transform: translate(-17px,10px) rotate(45deg);
 }
 .portfolio-text a{
   font-size: 1rem;
+}
+
+.portfolio-link{
+  margin-bottom: 50px;
 }
 
 /*---------------------------------*/
@@ -404,7 +409,7 @@ small{
 
 
 /*--------------------------------*/
-/*Base                            */
+/*Base-sp                         */
 /*--------------------------------*/
 
 .section-wrapper {
@@ -415,7 +420,7 @@ small{
 
 
 /*--------------------------------*/
-/*header                          */
+/*header -sp                      */
 /*--------------------------------*/
 .header-wrapper{
   padding:20px 20px 20px ;
@@ -456,7 +461,7 @@ small{
 
 
 /*--------------------------------*/
-/*ハンバーガーメニュー              */
+/*ハンバーガーメニュー  -sp         */
 /*--------------------------------*/
 body.noscroll{
   overflow: hidden;
@@ -469,7 +474,7 @@ body.noscroll{
 
 
 /*--------------------------------*/
-/*fv                              */
+/*fv  -sp                         */
 /*--------------------------------*/
 
 .fv-wrapper{
@@ -487,7 +492,7 @@ body.noscroll{
 
 
 /*--------------------------------*/
-/*About                           */
+/*About -sp                       */
 /*--------------------------------*/
 .about-flex{
   width: 100%;
@@ -507,7 +512,7 @@ body.noscroll{
 }
 
 /*--------------------------------*/
-/*Works                           */
+/*Works -sp                       */
 /*--------------------------------*/
 .works-flex{
   flex-direction: column;
@@ -520,10 +525,14 @@ body.noscroll{
 .portfolio:last-of-type{
   margin-bottom: 0;
 }
+  
+ .portfolio-link{
+  margin-bottom: 0;
+}
 
 
 /*--------------------------------*/
-/*Skills                          */
+/*Skills-sp                       */
 /*--------------------------------*/
 
 .skills-list li{
@@ -540,7 +549,7 @@ font-size: 11vw;
 
 
 /*--------------------------------*/
-/*Contact                         */
+/*Contact -sp                     */
 /*--------------------------------*/
 form{
   max-width: 100%;
