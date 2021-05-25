@@ -526,9 +526,7 @@ body.noscroll{
 
 }
   
- .portfolio1,.portfolio2{
-margin-bottom: 0px;
-}
+ 
 .portfolio:last-of-type{
   margin-bottom: 0;
 }
