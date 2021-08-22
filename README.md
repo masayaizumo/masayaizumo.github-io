@@ -1,1 +1,0 @@
-# masayaizumo.github-io
